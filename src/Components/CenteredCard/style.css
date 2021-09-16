@@ -1,5 +1,13 @@
 .centered{
     display: flex;
     justify-content: center;
-    color: aqua;
+    color: aqua;  
+}
+.centered div{
+    border: solid white 1px;
+    border-radius: 4px; 
+    margin: 4px;
+    background-color: blueviolet;
+    padding: 10px;
+
 }

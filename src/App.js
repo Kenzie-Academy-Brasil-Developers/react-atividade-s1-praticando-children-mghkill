@@ -1,16 +1,13 @@
-import logo from './logo.svg';
+import { useCallback, useEffect, useState } from 'react';
 import './App.css';
 import CenteredCard from './Components/CenteredCard/CenteredCard';
 function App() {
-  const child = "Título de teste"
+  const children = "children"
+  const age = [1,2,3]
   return (
     <div className="App">
       <header className="App-header">
-       <CenteredCard > 
-         
-        {child}
-        <p>18</p>
-        </CenteredCard>
+       <CenteredCard children={children} age={age}/>
       </header>
     </div>
   );
